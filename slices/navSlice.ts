@@ -5,7 +5,7 @@ import { GooglePlaceData, GooglePlaceDetail } from "react-native-google-places-a
 export type NavType = {
     origin: { data: GooglePlaceData, details: GooglePlaceDetail | null } | null
     destination: { data: GooglePlaceData, details: GooglePlaceDetail | null } | null
-    travelTimeInformation: string | null,
+    travelTimeInformation: any | null
 }
 
 const initialState: NavType = {
